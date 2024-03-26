@@ -1,6 +1,6 @@
 
 # Sahayak: Customer Support ChatBoT
-
+![sahayak2](https://github.com/blackwallpurplestone/acm_project_chatbot/assets/144417599/9093a82c-d6dd-48e6-9fef-21bd27ceea9c)
 
 
 This project is a chatbot named "Sahayak," which assists users with various health-related inquiries. It utilizes natural language processing (NLP) techniques to understand user queries and provide relevant responses. The chatbot covers a range of topics, including adverse drug reactions, blood pressure monitoring, hospital and pharmacy searches, and lifestyle tips for healthy living.
@@ -18,6 +18,11 @@ Overall, the project aims to provide users with a helpful and informative chatbo
 ## Project Background
 
 This project was made as a part of Data Science Training and Internship Program from ACM Students Chapter IIT Dhanbad 2024-25.
+
+
+## Gif 
+
+https://github.com/blackwallpurplestone/acm_project_chatbot/assets/144417599/4160748c-c737-4383-b46f-1a613d3d45f2
 
 
 ## Problem Statement
