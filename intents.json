@@ -1,0 +1,119 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, I am Sahayak Your Companion", "Glad you are here... Tell me what you want to know", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        {"tag": "adverse_drug",
+         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+         "responses": ["An intradermal test means a small amount of liquid containing the drug is put under the surface of your skin.and watch for reaction"," Your healthcare provider will watch for a reaction.","Medicines that have been particularly implicated in ADR-related hospital admissions include antiplatelets, anticoagulants, cytotoxics, immunosuppressants, diuretics, antidiabetics and antibiotics."],
+         "context": [""]
+        },
+        {"tag": "blood_pressure",
+         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
+         "responses": ["Blood pressure that's too low, known as hypotension, is much less common. But you may get tested for low blood pressure if you have certain symptoms. Unlike high blood pressure, low blood pressure usually causes symptoms."],
+         "context": [""]
+        },
+
+        {
+                "tag": "blood_pressure_high_info",
+                "patterns": ["What is high blood pressure?", "Tell me about hypertension", "High blood pressure information", "Symptoms of high blood pressure", "Tips for managing high blood pressure"],
+                "responses": ["High blood pressure, or hypertension, is a condition where the force of the blood against your artery walls is consistently too high. It can lead to serious health issues such as heart disease, stroke, and kidney disease. Symptoms may include headache, shortness of breath, nosebleeds, and chest pain. Management involves lifestyle changes like a healthy diet, regular exercise, and medication if necessary. It's important to monitor your blood pressure regularly and seek medical advice if you have concerns."],
+                "context": [""]
+              },
+              {
+                "tag": "blood_pressure_low_info",
+                "patterns": ["What is low blood pressure?", "Tell me about hypotension", "Low blood pressure information", "Symptoms of low blood pressure", "Tips for managing low blood pressure"],
+                "responses": ["Low blood pressure, or hypotension, is a condition where the force of the blood against your artery walls is too low. It can cause symptoms such as dizziness, fainting, fatigue, blurred vision, and nausea. In severe cases, it can lead to shock. Management may include increasing salt intake, staying hydrated, avoiding alcohol, wearing compression stockings, and standing up slowly. If you experience persistent low blood pressure, consult a healthcare professional for evaluation and advice."],
+                "context": [""]
+              },
+
+              {
+                "tag": "mental_health_tips",
+                "patterns": ["How can I improve my mental health?", "Give me tips for better mental health", "What can I do to feel better mentally?", "Ways to boost mental health", "Tips for maintaining mental well-being"],
+                "responses": ["Improving mental health is essential for overall well-being. Here are some tips: 1. Practice self-care activities like meditation, exercise, and hobbies. 2. Maintain a healthy lifestyle with balanced nutrition, regular sleep, and limited caffeine and alcohol intake. 3. Seek support from friends, family, or a mental health professional if needed. 4. Manage stress through relaxation techniques such as deep breathing and mindfulness. 5. Stay connected with others and nurture positive relationships. Remember, it's okay to ask for help when you need it."],
+                "context": [""]
+              },
+
+              {
+                "tag": "heart_risks_info",
+                "patterns": ["What are the risks of heart disease?", "Information about heart risks", "Heart disease risks", "Factors contributing to heart problems"],
+                "responses": ["Heart disease risks can be influenced by various factors such as high blood pressure, high cholesterol levels, smoking, diabetes, obesity, poor diet, physical inactivity, and family history of heart disease. It's essential to manage these risk factors through lifestyle changes and regular medical check-ups to reduce the risk of heart problems."],
+                "context": [""]
+              },
+              {
+                "tag": "heart_risks_tips",
+                "patterns": ["How can I reduce my risk of heart disease?", "Tips for preventing heart problems", "Ways to lower heart disease risks"],
+                "responses": ["To reduce your risk of heart disease, consider adopting a heart-healthy lifestyle. This includes maintaining a balanced diet low in saturated fats and cholesterol, regular physical activity, maintaining a healthy weight, managing stress, getting enough sleep, avoiding smoking, limiting alcohol intake, and monitoring blood pressure and cholesterol levels. It's also crucial to follow your doctor's recommendations and attend regular check-ups."],
+                "context": [""]
+              },
+
+              {
+                "tag": "diabetes_info",
+                "patterns": ["What is diabetes?", "Information about diabetes", "Diabetes overview", "Understanding diabetes"],
+                "responses": ["Diabetes is a chronic condition that affects how your body processes glucose (sugar) in the blood. There are two main types of diabetes: type 1 and type 2. Type 1 diabetes is an autoimmune disease where the body's immune system attacks and destroys insulin-producing cells in the pancreas. Type 2 diabetes occurs when the body becomes resistant to insulin or doesn't produce enough insulin. Diabetes management involves maintaining blood sugar levels within a target range through a combination of medication, diet, exercise, and regular monitoring."],
+                "context": [""]
+              },
+              {
+                "tag": "diabetes_tips",
+                "patterns": ["How can I manage diabetes effectively?", "Tips for living with diabetes", "Ways to control blood sugar levels"],
+                "responses": ["Effective diabetes management involves adopting healthy lifestyle habits and following your healthcare provider's recommendations. This includes monitoring blood sugar levels regularly, eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins, engaging in regular physical activity, taking prescribed medications as directed, managing stress, getting enough sleep, and attending regular medical check-ups. It's essential to work closely with your healthcare team to develop a personalized diabetes management plan."],
+                "context": [""]
+              },       
+              
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": ["pharmacy search"]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type","Search hospitals","give me hospitals"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+
+
+        ]
+
+
+}
