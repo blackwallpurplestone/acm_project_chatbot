@@ -20,7 +20,7 @@ Overall, the project aims to provide users with a helpful and informative chatbo
 This project was made as a part of Data Science Training and Internship Program from ACM Students Chapter IIT Dhanbad 2024-25.
 
 
-## Gif 
+## Demo
 
 https://github.com/blackwallpurplestone/acm_project_chatbot/assets/144417599/4160748c-c737-4383-b46f-1a613d3d45f2
 
